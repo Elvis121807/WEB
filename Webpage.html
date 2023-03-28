@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>PERSONAL PORTFOLIO</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!--LOGO INSERT-->
+                    <ul>
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#extra-curricular">EXTRA CURRICULAR</a></li>
+                        
+
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p> WEB DEVELOPMENT</p>
+                    <h1>Welcome <br> <span>To My</span> Page
+                    </h1>
+
+                </div>
+            </div>
+        </div> 
+        <!-----ABOUT------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="3476=elvis.jpg" ></img>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub">About Me</h1>
+                        <p class="para1">A hardworking and enthusiastic individual seeking a challenging position in a reputed  organization where I can learn new skills, expand my knowledge and leverage my learning.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                            <p class="tab-links "onclick="opentab('education')">EDUCATION</p>
+                            <p class="tab-links"onclick="opentab('internship')">INTERNSHIP</p>
+                        </div>
+                        <div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Python</span></li>
+                                    <li><span>C programming</span></li>
+                                    <li><span>HTML</span></li>
+                                    <li><span>java Script</span></li>
+                                    <li><span>CSS</span></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>CHRIST VIDYANIKETHAN [2014-15]</span><br><span>10th Board - 89.5%</span></li>
+                                    <li><span>CHRIST VIDYANIKETHAN [2016-17]</span><br><span>12th Board - 80</span></li>
+                                    <li><span>SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY [2018-22] </span><br><span>CGPA 7.72</span></li>
+                                    
+                                </ul>
+                            </div><div class="tab-contents" id="internship">
+                                <ul>
+                                    <li><span>ANDROID APP DEVELOPMENT [2021] </span><span>Basics of Kotlin</span></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <!-- --------------projetcs-------------------- -->
+        <div id="projects">
+            <div class="container">
+                <h1 class= "sub-title">My Projects</h1>
+                <br>
+                <div>
+                    <h2>Speech Emotion Recognition</h2>
+                    <br>
+                    <p class="para1"> The project EMOTICON is based on identifying the emotion of a Speech.
+                         Using our android app we record audio and identify the emotion of the user.
+                        We make use of the unique feature of each sound wave , the MFCC (Mel Frequency Cepstrum Coeffecient) 
+                         along with CNN. The emotions were classified under Happy, Sad, Angry, Calm, Disgust etc.</p>
+                    
+                </div>
+                <div>
+                    <br>
+                    <h2>Cloud Forensic Architecture Using Block Chain Along with Fuzzy Hashing</h2>
+                    <br>
+                    <p class="para1">The Project focus on simulating an attack on cloud environment and the retrieved credentials
+                        are stored securely in a blockchain using IPFS and GETH. We implement Fuzzy Hashing to secure the storage to a better extend.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <!------CONTACT----->
+        <div id="contact">
+            <div class="container">
+                <h1 class="sub-title">My Contact</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>ADDRESS</h2>
+                        <h3> IRINJALAKUDA, THRISSUR, KERALA</h3>
+                    </div>
+                    <div>
+                        <h2>PHONE</h2>
+                        <h3>7025247397</h3>
+
+                    </div>
+                    <div>
+                        <h2>EMAIL</h2>
+                        <h3>thomaselvis62@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Extra--------------------->
+        <div id="extra-curricular">
+            <div class="container">
+                <h1 class="sub-title">Extra curricular</h1>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('sports')">SPORTS</p>
+                    <p class="tab-links "onclick="opentab('roles')">ROLES AND RESPONSIBILITY</p>
+                    <p class="tab-links"onclick="opentab('hobbies')">HOBBIES</p>
+                </div>
+                <div>
+                    <div class="tab-contents active-tab" id="sports">
+                        <ul>
+                            <li><span>Basketball AISCE Nationals (2)</span></li>
+                            <li><span>AISCE Athletic meet 400m Finalist </span></li>
+                            <li><span>Basketball College Team Captain</span></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="roles">
+                        <ul>
+                            <li><span>School Headboy [2016-17] </span></li>
+                            <li><span>College Union Sports Secretary</span></li>
+                            <li><span>IEEE Volunteer</span></li>
+                            
+                        </ul>
+                    </div><div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Learning new Skills</span></li>
+                            <li><span>Japanese anime</span></li>
+                            <li><span>Gym</span></li>
+                            <li><span>Creative Designing</span></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                  
+            
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+               }
+               event.currentTarget.classList.add("active-link");
+               document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+    </body>
+    
+
+</html>
